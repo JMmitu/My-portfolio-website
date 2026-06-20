@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Hero Section</title>
+
+    <link rel="stylesheet" href="tailwind-static.css">
+    <link rel="stylesheet" href="polish.css">
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+
+</head>
+
+<body
+    class="overflow-x-hidden text-white font-sans bg-gradient-to-r from-[#141e30] via-[#243b55] to-[#5f2c82]"
+>
+
+    <!-- BLUR EFFECT -->
+
+    <div
+        class="fixed top-[-100px] left-[-100px] w-[350px] h-[350px] bg-purple-500/20 blur-[120px] rounded-full"
+    ></div>
+
+    <div
+        class="fixed bottom-[-100px] right-[-100px] w-[350px] h-[350px] bg-blue-500/20 blur-[120px] rounded-full"
+    ></div>
+
+
+
+    <!-- NAVBAR -->
+
+    <nav
+        class="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-black/20"
+    >
+
+        <ul
+            class="flex justify-center gap-14 py-6 text-lg font-medium"
+        >
+
+            <li>
+                <a
+                    href="index.html"
+                    class="hover:text-purple-300 duration-300"
+                >
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="hero.html"
+                    class="text-purple-300"
+                >
+                    Hero
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="about.html"
+                    class="hover:text-purple-300 duration-300"
+                >
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="skills.html"
+                    class="hover:text-purple-300 duration-300"
+                >
+                    Skills
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="projects.html"
+                    class="hover:text-purple-300 duration-300"
+                >
+                    Project
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="contact.html"
+                    class="hover:text-purple-300 duration-300"
+                >
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <!-- HERO SECTION -->
+
+    <section
+        class="min-h-screen px-6 pt-40 pb-20"
+    >
+
+        <div
+            class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center"
+        >
+
+            <!-- LEFT SIDE -->
+
+            <div>
+
+                <!-- ABOUT TAG -->
+
+                <div
+                    class="inline-block px-8 py-3 rounded-full bg-white/10 backdrop-blur-xl border border-white/10 mb-10"
+                >
+
+                    <h2
+                        class="uppercase tracking-[5px]"
+                    >
+                        About Me
+                    </h2>
+
+                </div>
+
+
+
+                <!-- NAME -->
+
+                <h1
+                    class="text-5xl md:text-7xl font-extrabold leading-tight mb-8"
+                >
+                    Jannatul <br>
+                    Mauwa Mitu
+                </h1>
+
+
+
+                <!-- DESCRIPTION -->
+
+                <p
+                    class="text-lg leading-10 text-gray-300 max-w-xl mb-12"
+                >
+                    I am a Frontend Web Developer passionate
+                    about building responsive websites and
+                    modern user experiences. I enjoy learning
+                    new technologies and turning ideas into
+                    functional digital solutions.
+                </p>
+
+
+
+                <!-- BUTTONS -->
+
+                <div
+                    class="flex flex-wrap gap-6"
+                >
+
+                    <!-- CONTACT -->
+
+                    <div
+                        class="relative group"
+                    >
+
+                        <button
+                            class="bg-gradient-to-r from-purple-500 to-blue-500 px-8 py-4 rounded-full text-lg font-medium hover:scale-105 duration-300 shadow-2xl"
+                        >
+                            Contact Me
+                        </button>
+
+
+
+                        <div
+                            class="absolute left-0 top-[80px] w-[320px] bg-white/10 backdrop-blur-xl border border-white/10 rounded-3xl p-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-300"
+                        >
+
+                            <div
+                                class="flex items-center gap-4 mb-4"
+                            >
+
+                                <i
+                                    class="ri-mail-fill text-2xl text-purple-300"
+                                ></i>
+
+                                <p
+                                    class="break-all"
+                                >
+                                    jannatulmauwamitu420@gmail.com
+                                </p>
+
+                            </div>
+
+
+
+                            <div
+                                class="flex items-center gap-4"
+                            >
+
+                                <i
+                                    class="ri-phone-fill text-2xl text-purple-300"
+                                ></i>
+
+                                <p>
+                                    01880677473
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- CV -->
+
+                    <div
+                        class="relative group"
+                    >
+                       <!--BUTTON -->
+                        <a
+                         href="https://raw.githubusercontent.com/JMmitu/MyResume/main/myCV.pdf"
+                         target="_blank"
+                         class="bg-white/10 border border-white/10 px-8 py-4 rounded-full hover:scale-105 duration-300 inline-block"
+>
+                         Download CV
+                            </a>
+
+
+                        <div
+                            class="absolute left-0 top-[80px] w-[260px] bg-white/10 backdrop-blur-xl border border-white/10 rounded-3xl p-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-300"
+                        >
+
+                            <a
+                                href="https://github.com/JMmitu/MyResume/blob/main/myCV.pdf"
+                                download
+                                class="hover:text-purple-300 duration-300"
+                            >
+                                Download CV
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- RIGHT SIDE -->
+
+            <div
+                class="relative flex justify-center"
+            >
+
+                <!-- GLOW -->
+
+                <div
+                    class="absolute w-[350px] h-[500px] bg-purple-500/20 blur-3xl rounded-[60px]"
+                ></div>
+
+
+
+                <!-- IMAGE -->
+
+                <img
+                    src="Profile Photo.jpeg"
+                    alt="Profile"
+                    class="relative z-10 w-[320px] md:w-[420px] h-[450px] md:h-[560px] object-cover rounded-[60px] border border-white/10 shadow-2xl"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+    <script src="polish.js"></script>
+</body>
+</html>
